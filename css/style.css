@@ -8,7 +8,19 @@ h1 {
     font-weight: bold;
     letter-spacing: 2px;
 }
-
+/* result class */
+.resultText{
+    font-family: fantasy;
+    font-size: xx-large;
+    margin: 2px auto;
+}
+h3 {
+    margin-top: 10px;
+}
+.result {
+    background-color: white;
+    font-size: xx-large;
+}
 /* players section */
 #players {
     display: inline-flex;
@@ -16,4 +28,18 @@ h1 {
 }
 .player1 ,.player2 {
     margin: 10px 100px;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+/* Go button */
+.goBtn {
+    background-color: brown;
+    color: white;
+    font-size: x-large;
+    width: 120px;
+    height: 70px;
+    margin-top: 20px;
+    border-radius: 20%;
 }
